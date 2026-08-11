@@ -1,0 +1,12 @@
+{
+    "actorSpecification": 1,
+    "name": "clinical-trial-tracker",
+    "title": "Clinical Trial Tracker — New Trials by Sponsor & Condition",
+    "description": "Search newly posted clinical trials by sponsor, condition, phase, status, or country. A new trial start is a buying signal for CROs, lab suppliers, and patient recruitment services.",
+    "version": "0.1",
+    "meta": {
+        "templateId": "custom-no-proxy"
+    },
+    "input": "./input_schema.json",
+    "dockerfile": "../Dockerfile"
+}

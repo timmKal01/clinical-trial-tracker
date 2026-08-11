@@ -1,0 +1,61 @@
+{
+    "title": "Clinical Trial Tracker Input",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+        "condition": {
+            "title": "Condition",
+            "type": "string",
+            "editor": "textfield",
+            "description": "Medical condition to search for (e.g. \"oncology\", \"type 2 diabetes\"). Leave blank to skip."
+        },
+        "sponsor": {
+            "title": "Sponsor",
+            "type": "string",
+            "editor": "textfield",
+            "description": "Lead sponsor organization name (e.g. \"Pfizer\"). Leave blank for all sponsors."
+        },
+        "phase": {
+            "title": "Phase",
+            "type": "string",
+            "editor": "select",
+            "description": "Trial phase.",
+            "enum": ["all", "EARLY_PHASE1", "PHASE1", "PHASE2", "PHASE3", "PHASE4", "NA"],
+            "enumTitles": ["All phases", "Early Phase 1", "Phase 1", "Phase 2", "Phase 3", "Phase 4", "N/A (not applicable)"],
+            "default": "all"
+        },
+        "status": {
+            "title": "Status",
+            "type": "string",
+            "editor": "select",
+            "description": "\"New\" = recruiting or not-yet-recruiting (the trial-start signal). \"Terminated\" = terminated, withdrawn, or suspended (the trial-failure signal).",
+            "enum": ["new", "all", "completed", "terminated"],
+            "enumTitles": ["New (recruiting / not yet recruiting)", "All statuses", "Completed", "Terminated / withdrawn / suspended"],
+            "default": "new"
+        },
+        "country": {
+            "title": "Country",
+            "type": "string",
+            "editor": "textfield",
+            "description": "Limit to trials with at least one site in this country (e.g. \"Germany\"). Leave blank for all countries."
+        },
+        "daysBack": {
+            "title": "Days back",
+            "type": "integer",
+            "editor": "number",
+            "description": "How many days back from today to search, by first-posted date.",
+            "default": 14,
+            "minimum": 1,
+            "maximum": 90
+        },
+        "maxResults": {
+            "title": "Max results",
+            "type": "integer",
+            "editor": "number",
+            "description": "Maximum number of trials to return, most recently posted first.",
+            "default": 25,
+            "minimum": 1,
+            "maximum": 100
+        }
+    }
+}
