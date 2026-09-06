@@ -7,7 +7,9 @@ for competitive and risk-monitoring purposes.
 
 Built for CRO/vendor business development tracking which sponsors are
 starting trials in their therapeutic area, and biotech competitive
-intelligence teams monitoring specific sponsors or conditions.
+intelligence teams monitoring specific sponsors or conditions — a new Phase 1
+trial start is an outreach trigger while budget is still being allocated,
+not after the CRO shortlist is already locked in.
 
 ## Input
 
