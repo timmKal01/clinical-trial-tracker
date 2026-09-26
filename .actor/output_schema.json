@@ -1,6 +1,6 @@
 {
     "actorOutputSchemaVersion": 1,
-    "title": "Output schema of Clinical Trial Tracker — New Trials by Sponsor & Condition",
+    "title": "Output schema of Clinical Trial Tracker: New Trials by Sponsor & Condition",
     "description": "Results are pushed to the default dataset, one record per item.",
     "properties": {
         "results": {
