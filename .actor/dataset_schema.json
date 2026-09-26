@@ -1,0 +1,73 @@
+{
+    "actorSpecification": 1,
+    "fields": {},
+    "views": {
+        "overview": {
+            "title": "Overview",
+            "transformation": {
+                "fields": [
+                    "nctId",
+                    "studyUrl",
+                    "briefTitle",
+                    "overallStatus",
+                    "phases",
+                    "leadSponsor",
+                    "conditions",
+                    "countries",
+                    "siteCount",
+                    "studyFirstPostDate",
+                    "startDate"
+                ]
+            },
+            "display": {
+                "component": "table",
+                "properties": {
+                    "nctId": {
+                        "label": "NCT ID",
+                        "format": "text"
+                    },
+                    "studyUrl": {
+                        "label": "Study URL",
+                        "format": "link"
+                    },
+                    "briefTitle": {
+                        "label": "Brief title",
+                        "format": "text"
+                    },
+                    "overallStatus": {
+                        "label": "Overall status",
+                        "format": "text"
+                    },
+                    "phases": {
+                        "label": "Phases",
+                        "format": "array"
+                    },
+                    "leadSponsor": {
+                        "label": "Lead sponsor",
+                        "format": "text"
+                    },
+                    "conditions": {
+                        "label": "Conditions",
+                        "format": "array"
+                    },
+                    "countries": {
+                        "label": "Countries",
+                        "format": "array"
+                    },
+                    "siteCount": {
+                        "label": "Site count",
+                        "format": "number"
+                    },
+                    "studyFirstPostDate": {
+                        "label": "Study first post date",
+                        "format": "text"
+                    },
+                    "startDate": {
+                        "label": "Start date",
+                        "format": "text"
+                    }
+                }
+            }
+        }
+    }
+}
