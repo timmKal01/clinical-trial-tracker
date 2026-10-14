@@ -75,5 +75,5 @@ search returns 1 trial or 100.
 
 Looking for other early-signal or risk-monitoring actors?
 
-- [Insider Trading Alert](https://github.com/timmKal01/insider-trading-alert) — executive stock buy/sell signals
-- [Product Recall Alert](https://github.com/timmKal01/product-recall-alert) — FDA drug/food/device recalls
+- [Insider Trading Tracker](https://apify.com/m_ctim/insider-trading-alert): executive stock buy/sell signals
+- [FDA Recall Tracker](https://apify.com/m_ctim/product-recall-alert): FDA drug/food/device recalls
